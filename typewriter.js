@@ -1,6 +1,7 @@
 const typeWriter = (string) => {
   let increase = 0;
-  for (const char of string) {
+  let strLine = string + '\n'
+  for (const char of strLine) {
     increase += 50;
     setTimeout(() => {
       process.stdout.write(char);
@@ -10,5 +11,5 @@ const typeWriter = (string) => {
 
 const sentence = "hello there from lighthouse labs";
 
-typeWriter(sentence + '\n');
+typeWriter(sentence);
 
