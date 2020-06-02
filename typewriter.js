@@ -10,5 +10,5 @@ const typeWriter = (string) => {
 
 const sentence = "hello there from lighthouse labs";
 
-typeWriter(sentence);
+typeWriter(sentence + '\n');
 
